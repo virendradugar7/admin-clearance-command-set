@@ -1,0 +1,45 @@
+{
+  "id": "d3acd4c9-568f-43be-8052-ff1d6c66c3f7",
+  "alias": "PermissionCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "CMD_SECURE": {
+      "title": {
+        "default": "Secret Command"
+      },
+      "iconImageUrl": "data:image...",
+      "type": "command"
+    }
+  },
+  "loaderConfig": {
+    "entryModuleId": "permission-command-set",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "permission-command-set": {
+        "type": "path",
+        "path": "dist/permission-command-set.js"
+      },
+      "@microsoft/sp-dialog": {
+        "type": "component",
+        "version": "1.11.0",
+        "id": "c0c518b8-701b-4f6f-956d-5782772bb731"
+      },
+      "@microsoft/sp-listview-extensibility": {
+        "type": "component",
+        "version": "1.11.0",
+        "id": "d37b65ee-c7d8-4570-bc74-2b294ff3b380"
+      },
+      "@microsoft/decorators": {
+        "type": "component",
+        "version": "1.11.0",
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3"
+      }
+    }
+  }
+}

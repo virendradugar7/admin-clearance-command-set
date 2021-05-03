@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://domain07.sharepoint.com/Lists/week%20tasks/AllItems.aspx",
+      "customActions": {
+        "d3acd4c9-568f-43be-8052-ff1d6c66c3f7": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is only visible only if permission is granted"
+          }
+        }
+      }
+    },
+    "permission": {
+      "pageUrl": "https://domain07.sharepoint.com/Lists/week%20tasks/AllItems.aspx",
+      "customActions": {
+        "d3acd4c9-568f-43be-8052-ff1d6c66c3f7": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is only visible only if permission is granted."
+          }
+        }
+      }
+    }
+  }
+}

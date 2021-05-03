@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "d3acd4c9-568f-43be-8052-ff1d6c66c3f7",
+  "alias": "PermissionCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "CMD_SECURE": {
+      "title": { "default": "Secret Command" },
+      "iconImageUrl": "data:image...",
+      "type": "command"
+    }
+  }
+}
